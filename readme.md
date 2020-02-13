@@ -25,10 +25,10 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 This is a simple hello world sample build on Laravel, with two views accessed with the following
 request url
-domain/hello
 
-The second url can accepts param and pass it to the view
-domain/hello/param
+-   domain/hello
+-   The second url can accepts param and pass it to the view
+-   domain/hello/param
 
 ## Learning Laravel
 
