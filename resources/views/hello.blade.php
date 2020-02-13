@@ -1,1 +1,1 @@
-Hello World !!!!!! and hello {{$name}}
+Hello World !

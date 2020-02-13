@@ -7,8 +7,13 @@ use Illuminate\Http\Request;
 class HelloController extends Controller
 {
     //
-    public function index(Request $request,$name){
+    public function indexWithParam(Request $request,$name){
         $params = ['name'=>$name];
-        return view('hello')-> with($params);
+        return view('hello-with-param')-> with($params);
     }    
+
+    public function index(Request $request){
+        return view('hello');
+    }
+    
 }

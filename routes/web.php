@@ -16,8 +16,10 @@ Route::get('/', function () {
 });
 
 
+Route::get('hello', 'HelloController@index');
+
 /* Route::get('/hello',function(){
     return 'Hello World!';  
 }); */
 
-Route::get('hello/{name}', 'HelloController@index');
+Route::get('hello/{name}', 'HelloController@indexWithParam');
